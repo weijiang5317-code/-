@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Merry Christmas WebGL</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@300;400;600&family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
+    <style>
+      body { margin: 0; padding: 0; overflow: hidden; background-color: #000; font-family: 'Inter', sans-serif; }
+      .font-cursive { font-family: 'Great Vibes', cursive; }
+      .font-handwriting { font-family: 'Zhi Mang Xing', cursive; }
+      /* Custom scrollbar hiding */
+      .no-scrollbar::-webkit-scrollbar { display: none; }
+      .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@18.2.0",
+    "react/": "https://esm.sh/react@18.2.0/",
+    "react-dom": "https://esm.sh/react-dom@18.2.0",
+    "react-dom/": "https://esm.sh/react-dom@18.2.0/",
+    "three": "https://esm.sh/three@0.165.0",
+    "@mediapipe/tasks-vision": "https://esm.sh/@mediapipe/tasks-vision@0.10.8",
+    "@react-three/fiber": "https://esm.sh/@react-three/fiber@8.16.8?deps=three@0.165.0,react@18.2.0,react-dom@18.2.0",
+    "gsap": "https://esm.sh/gsap@3.12.5",
+    "@react-three/drei": "https://esm.sh/@react-three/drei@9.107.2?deps=three@0.165.0,react@18.2.0,react-dom@18.2.0,@react-three/fiber@8.16.8",
+    "@react-three/postprocessing": "https://esm.sh/@react-three/postprocessing@2.16.2?deps=three@0.165.0,react@18.2.0,react-dom@18.2.0,@react-three/fiber@8.16.8",
+    "zustand": "https://esm.sh/zustand@4.5.2?deps=react@18.2.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
